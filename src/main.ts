@@ -1,12 +1,9 @@
-import { me } from "./info";
+export type Info = {
+    name: string;
+    age: number;
+};
 
-console.log(me);
-
-function generateTwoStepCounter() {
-    let count = 0;
-    return () => (count += 2);
-}
-
-const increment = generateTwoStepCounter();
-
-for (let i = 0; i < 5; ++i) console.log(increment());
+export const me: Info = {
+    name: "Luis",
+    age: 26,
+};

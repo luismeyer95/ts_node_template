@@ -1,7 +1,7 @@
-import { me } from "src/info";
+import { me } from "src/main";
 
 describe("test", () => {
     test("#1", async () => {
-        // expect(name).toBe("Luis");
+        expect(me.name).toBe("Luis");
     });
 });

@@ -1,12 +1,13 @@
 {
-    "name": "ts-template",
+    "name": "ts_node_template",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "build/main.js",
+    "types": "build/main.d.ts",
     "scripts": {
         "test": "jest --verbose --coverage",
         "start": "NODE_PATH='.' npx ts-node src/main.ts",
-        "debug": "npx tsc --sourcemap"
+        "build": "npx tsc --sourcemap"
     },
     "keywords": [],
     "author": "",
@@ -19,8 +20,5 @@
         "ts-jest": "^27.0.5",
         "ts-node": "^10.0.0",
         "typescript": "^4.4.2"
-    },
-    "dependencies": {
-        "module-alias": "^2.2.2"
     }
 }
