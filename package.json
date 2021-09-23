@@ -15,7 +15,6 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@babel/plugin-transform-modules-commonjs": "^7.15.4",
         "@types/jest": "^26.0.24",
         "@types/node": "^15.12.2",
         "@typescript-eslint/eslint-plugin": "^4.31.0",
