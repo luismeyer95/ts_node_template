@@ -3,4 +3,3 @@ import type { Person } from './module/module';
 
 const greeting = module.presentPerson(module.luis);
 console.log(greeting);
-console.log(greeting);
