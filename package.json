@@ -27,5 +27,8 @@
         "ts-essentials": "^8.1.0",
         "ts-jest": "^27.0.5",
         "typescript": "^4.4.3"
+    },
+    "dependencies": {
+        "untyped-npm-module": "^1.0.1"
     }
 }
