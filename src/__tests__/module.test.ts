@@ -1,4 +1,4 @@
-import * as module from 'src/module/module';
+import * as module from 'src/module';
 
 describe('test', () => {
     test('testing person object', async () => {
